@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.side-space {
+    margin: 0 8%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.display-flex {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 10px;
+    margin-right: 4vw;
+    cursor: pointer;
+}
+
+/* Navigation view */
+.upper-deco {
+    height: 5vh;
+    background-color: #345E2E;
+}
+
+.nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.nav_logo {
+    height: 10vh;
+}
+
+.nav_search{
+    height: 5vh;
+    width: 2vw;
+    border: none;
+    margin-right: 4vw;
+}
+
+.nav_Cart {
+    height: 5vh;
+    width: 2vw;
+    border: none;
+}
