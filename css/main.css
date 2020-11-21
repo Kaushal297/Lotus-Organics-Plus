@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+/* Fonts */
+@font-face {
+    font-family: 'dm_sans';
+    src: url('../fonts/dmsans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/dmsans-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'nanummyeongjo';
+    src: url('../fonts/nanummyeongjo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/nanummyeongjo-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('../fonts/oswald-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-variablefont_wght-webfont.woff') format('woff');
+}
+/* End of Fonts */
+
 .side-space {
     margin: 0 8%;
 }
