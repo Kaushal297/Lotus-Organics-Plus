@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 /* Fonts */
@@ -23,6 +24,27 @@
          url('../fonts/oswald-variablefont_wght-webfont.woff') format('woff');
 }
 /* End of Fonts */
+
+/* testing CSS */
+.onepixelborder {
+    border: 1px solid red;
+}
+/* End of Testing CSS */
+h2,
+h3, 
+.font-size-3 {
+    font-family: "nanummyeongjo";    
+    font-weight: 500;
+}
+
+p {
+    font-family: 'nanummyeongjo';
+    font-weight: 600;
+}
+
+.font-oswald{
+    font-family: 'oswald';
+}
 
 .side-space {
     margin: 0 8%;
@@ -89,6 +111,11 @@
 .margin-top-10em {
     margin-top: 10em;
 }
+
+.padding-50px{
+    padding: 50px;
+}
+
 .font-size-10 {
     font-size: 10em;
 }
@@ -97,7 +124,7 @@
     font-size: 5em;
 }
 
-h3, h2 {
+h3, h2, .font-size-3 {
     font-size: 3em;
 }
 
@@ -227,4 +254,31 @@ ul li {
 .categories-box {
     border: 1px solid red;
     padding: 20px;
+}
+
+.categories_Img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Subscribe now view */
+.mid-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-email {
+    flex-grow: 2;
+    border: none;  
+    margin-left: 30px;
+    font-size: large;
+}
+
+.border-green{
+    border :3px solid #345E2E;
+}
+
+.shopNow-Button-padded{
+    margin: 5px;
 }
